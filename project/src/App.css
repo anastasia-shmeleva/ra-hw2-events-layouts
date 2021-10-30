@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  font-family: 'Arial Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.store__container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.switch {
+  text-align: right;
+}
+
+/* ShopCard in CardsView */
+
+.cards {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 350px;
+  text-align: center;
+  padding: 20px 30px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #f5f5f5;
+}
+
+.item__name {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.item__color {
+  color: gray;
+}
+
+.item__img {
+  box-sizing: border-box;
+  width: 300px;
+  overflow: hidden;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card__footer {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+  color: red;
+  align-items: center;
+}
+
+.item__price {
+  font-size: 20px;
+}
+
+.card__btn {
+  width: 200px;
+	height: 40px;
+	margin-left: 40px;
+	background-color: #f5f5f5;
+  border-width: 0;
+  border-radius: 30px;
+  border: 1px solid red;
+  color: red;
+  font-weight: 800;
+}
+
+/* ShopItem in ListView */
+
+.card__list {
+  margin-bottom: 15px;
+}
+
+.card__list {
+  display: flex;
+  height: 100px;
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.item__list__img {
+  width: 30%;
+}
+
+.item__list {
+  align-items: center;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item__list__price {
+  color: red;
+  font-size: 20px;
+}
+
+.card__list__btn {
+  width: 200px;
+	height: 40px;
+	margin-left: 40px;
+	background-color: #f5f5f5;
+  border-width: 0;
+  border-radius: 30px;
+  border: 1px solid red;
+  color: red;
+  font-weight: 800;
+}
